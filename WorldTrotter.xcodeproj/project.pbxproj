@@ -9,10 +9,13 @@
 /* Begin PBXBuildFile section */
 		333739591D85822D00E82D16 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 333739581D85822D00E82D16 /* main.m */; };
 		3337395C1D85822D00E82D16 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3337395B1D85822D00E82D16 /* AppDelegate.m */; };
-		3337395F1D85822D00E82D16 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3337395E1D85822D00E82D16 /* ViewController.m */; };
+		3337395F1D85822D00E82D16 /* ConversionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3337395E1D85822D00E82D16 /* ConversionViewController.m */; };
 		333739621D85822D00E82D16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 333739601D85822D00E82D16 /* Main.storyboard */; };
 		333739641D85822D00E82D16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 333739631D85822D00E82D16 /* Assets.xcassets */; };
 		333739671D85822D00E82D16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 333739651D85822D00E82D16 /* LaunchScreen.storyboard */; };
+		333739701D85C8C400E82D16 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3337396F1D85C8C400E82D16 /* MapKit.framework */; };
+		333739731D85CFA800E82D16 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 333739721D85CFA800E82D16 /* MapViewController.m */; };
+		3375C2AF1D86257A00484558 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3375C2B11D86257A00484558 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +23,22 @@
 		333739581D85822D00E82D16 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3337395A1D85822D00E82D16 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3337395B1D85822D00E82D16 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3337395D1D85822D00E82D16 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3337395E1D85822D00E82D16 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3337395D1D85822D00E82D16 /* ConversionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConversionViewController.h; sourceTree = "<group>"; };
+		3337395E1D85822D00E82D16 /* ConversionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConversionViewController.m; sourceTree = "<group>"; };
 		333739611D85822D00E82D16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		333739631D85822D00E82D16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		333739661D85822D00E82D16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		333739681D85822D00E82D16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3337396F1D85C8C400E82D16 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		333739711D85CFA800E82D16 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		333739721D85CFA800E82D16 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		335A0F041D861CBF00CF8B95 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		335A0F051D861D3F00CF8B95 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		3375C2B01D86257A00484558 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3375C2B21D86298700484558 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3375C2B31D86298C00484558 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3375C2B61D862E9000484558 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main.strings; sourceTree = "<group>"; };
+		3375C2B71D862E9000484558 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				333739701D85C8C400E82D16 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +58,7 @@
 			children = (
 				333739561D85822D00E82D16 /* WorldTrotter */,
 				333739551D85822D00E82D16 /* Products */,
+				3337396E1D85C8C400E82D16 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,10 +73,13 @@
 		333739561D85822D00E82D16 /* WorldTrotter */ = {
 			isa = PBXGroup;
 			children = (
+				3375C2B11D86257A00484558 /* Localizable.strings */,
+				333739711D85CFA800E82D16 /* MapViewController.h */,
+				333739721D85CFA800E82D16 /* MapViewController.m */,
 				3337395A1D85822D00E82D16 /* AppDelegate.h */,
 				3337395B1D85822D00E82D16 /* AppDelegate.m */,
-				3337395D1D85822D00E82D16 /* ViewController.h */,
-				3337395E1D85822D00E82D16 /* ViewController.m */,
+				3337395D1D85822D00E82D16 /* ConversionViewController.h */,
+				3337395E1D85822D00E82D16 /* ConversionViewController.m */,
 				333739601D85822D00E82D16 /* Main.storyboard */,
 				333739631D85822D00E82D16 /* Assets.xcassets */,
 				333739651D85822D00E82D16 /* LaunchScreen.storyboard */,
@@ -77,6 +95,14 @@
 				333739581D85822D00E82D16 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3337396E1D85C8C400E82D16 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3337396F1D85C8C400E82D16 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -121,6 +147,7 @@
 			knownRegions = (
 				en,
 				Base,
+				de,
 			);
 			mainGroup = 3337394B1D85822D00E82D16;
 			productRefGroup = 333739551D85822D00E82D16 /* Products */;
@@ -138,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				333739671D85822D00E82D16 /* LaunchScreen.storyboard in Resources */,
+				3375C2AF1D86257A00484558 /* Localizable.strings in Resources */,
 				333739641D85822D00E82D16 /* Assets.xcassets in Resources */,
 				333739621D85822D00E82D16 /* Main.storyboard in Resources */,
 			);
@@ -150,9 +178,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3337395F1D85822D00E82D16 /* ViewController.m in Sources */,
+				3337395F1D85822D00E82D16 /* ConversionViewController.m in Sources */,
 				3337395C1D85822D00E82D16 /* AppDelegate.m in Sources */,
 				333739591D85822D00E82D16 /* main.m in Sources */,
+				333739731D85CFA800E82D16 /* MapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +192,9 @@
 			isa = PBXVariantGroup;
 			children = (
 				333739611D85822D00E82D16 /* Base */,
+				335A0F041D861CBF00CF8B95 /* en */,
+				335A0F051D861D3F00CF8B95 /* es */,
+				3375C2B61D862E9000484558 /* de */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -175,6 +207,17 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		3375C2B11D86257A00484558 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3375C2B01D86257A00484558 /* es */,
+				3375C2B21D86298700484558 /* en */,
+				3375C2B31D86298C00484558 /* Base */,
+				3375C2B71D862E9000484558 /* de */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -182,6 +225,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -229,6 +273,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -307,6 +352,7 @@
 				3337396D1D85822D00E82D16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

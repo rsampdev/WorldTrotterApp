@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MapViewController.h
 //  WorldTrotter
 //
 //  Created by Rodney Sampson on 9/11/16.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface MapViewController : UIViewController
 
 @end
-
