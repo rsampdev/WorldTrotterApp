@@ -37,8 +37,8 @@
 		3375C2B01D86257A00484558 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 		3375C2B21D86298700484558 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		3375C2B31D86298C00484558 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
-		3375C2B61D862E9000484558 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main.strings; sourceTree = "<group>"; };
 		3375C2B71D862E9000484558 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3375C2BC1D86318500484558 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,7 +194,7 @@
 				333739611D85822D00E82D16 /* Base */,
 				335A0F041D861CBF00CF8B95 /* en */,
 				335A0F051D861D3F00CF8B95 /* es */,
-				3375C2B61D862E9000484558 /* de */,
+				3375C2BC1D86318500484558 /* de */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
